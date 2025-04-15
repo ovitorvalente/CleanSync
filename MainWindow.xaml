@@ -5,13 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CleanSync"
         mc:Ignorable="d"
-        WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
-        Title="MainWindow" 
-        Height="500" 
-        Width="500">
+        Title="CleanSync"
+        Height="400" 
+        Width="400">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
 
+        <Grid Grid.Row="1">
+            <Border Background="Black"
+                    Width="100"
+                    Height="40"
+                    Cursor="Hand"
+                    ToolTip="Clique para iniciar..."
+                    Focusable="True"
+                    MouseLeftButtonUp="RunCleanDB"
+                    CornerRadius="7">
+                <TextBlock Text="Iniciar" 
+                           Foreground="White"
+                           FontWeight="SemiBold"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="2" Background="#f1f1f1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="60"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="1" 
+                       Text="Ajuda"
+                       Cursor="Help"
+                       TextAlignment="Center"
+                       FontSize="10"
+                       Focusable="True"
+                       ToolTip="Precisa de ajuda?"
+                       VerticalAlignment="Center" />
+        </Grid>
     </Grid>
 </Window>
