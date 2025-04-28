@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25fbae346007bc8327873cabccccc344bb1011e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71eadb4357d1230b68515012d4c0c33520fbe575")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

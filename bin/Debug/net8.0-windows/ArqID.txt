@@ -1,0 +1,11 @@
+{
+  "DataSource": "localhost\\SQLSERVER",
+  "AttachFile": "",
+  "User": "sa",
+  "Password": "root",
+  "Timeout": 99999,
+  "PasswordEncrypted": "",
+  "Filial__Codigo": 0,
+  "Funcionario__Ide": "00000000-0000-0000-0000-000000000000",
+  "Funcionario__Password": ""
+}
